@@ -1,5 +1,5 @@
 # Mask Detection using Deep Learning
-This project is a deep learning application that predicts if a person is wearing a mask or not based on an input image. The model was trained using a dataset from Kaggle, and the application is deployed using Streamlit.
+This project is a deep learning application that predicts if a person is wearing a mask or not based on an input image. The model was trained using a dataset from Kaggle, and the application is deployed using **Streamlit**.
 
 ## Project Structure 
 * **requirements.txt**: Lists all libraries used in this project. 
