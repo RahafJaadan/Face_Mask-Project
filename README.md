@@ -1,25 +1,26 @@
-# 📦 Streamlit App Starter Kit 
+# Mask Detection using Deep Learning
+This project is a deep learning application that predicts if a person is wearing a mask or not based on an input image. The model was trained using a dataset from Kaggle, and the application is deployed using Streamlit.
+
+## Project Structure 
+* **requirements.txt**: Lists all libraries used in this project. 
+* **mask_detection_model.tflite**: Trained model saved in TensorFlow Lite format for efficient inference. 
+* **face_Mask_Detection_using_CNN.ipynb**: Jupyter Notebook with code for training and evaluating the model.
+* **streamlit_app.py**: Streamlit application for running the mask detection model interactively.
+
+## Usage
+1. Install the required libraries:
+   ```
+   pip install -r requirements.txt
+   ```
+   
+2.Run the Streamlit app: 
 ```
-⬆️ (Replace above with your app's name)
+streamlit run streamlit_app.py
 ```
 
-Description of the app ...
+## Model
+The model is a Convolutional Neural Network (CNN) trained to detect face masks, optimized and converted to TensorFlow Lite format.
 
 ## Demo App
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://facemask-project.streamlit.app/)
-
-## GitHub Codespaces
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
-
-## Section Heading
-
-This is filler text, please replace this with text for this section.
-
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
