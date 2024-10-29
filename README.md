@@ -12,7 +12,6 @@ This project is a deep learning application that predicts if a person is wearing
    ```
    pip install -r requirements.txt
    ```
-   
 2.Run the Streamlit app: 
 ```
 streamlit run streamlit_app.py
